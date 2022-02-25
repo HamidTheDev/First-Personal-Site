@@ -1,0 +1,124 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+p{
+  padding-right: 30px;
+}
+
+.header {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  background-image: url("header-bg.png");
+  background-size: cover;
+}
+
+section img {
+  width: 90%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 200%;
+  color: tomato;
+  letter-spacing: 4px;
+}
+h2 {
+  letter-spacing: 4px;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.half {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+button {
+  margin-top: 10px;
+  background-color: tomato;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+}
+
+.middle {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  background-image: url("biography-bg.png");
+  background-size: cover;
+}
+
+.latest-work {
+  padding: 30px;
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  background-image: url("latest-work-bg.png");
+}
+
+.footer img {
+  width: 30%;
+}
+
+.client-say {
+  text-align: center;
+  padding: 50px;
+  color: black;
+}
+
+.client {
+  width: 50%;
+  display: flex;
+  background-image: url("footer-bg.png");
+  background-size: cover;
+}
+
+.foot-button {
+  margin: auto;
+  width: 30%;
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.last {
+  background-image: url("footer-bg.png");
+  background-size: cover;
+}
+
+.experience{
+  display: flex;
+    margin-left: 8%;
+  align-items: center;
+  text-align: justify;
+}
+
+#half{
+  width: 40%;
+  height: 40%;
+  margin-left: 40px;
+  padding: 40px;
+  border-left: 10px solid;
+  border-radius: 10px;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+  box-shadow: 10px 10px 50px gray;
+
+}
+
+footer{
+  padding-top: 150px;
+  text-align: center;
+}
